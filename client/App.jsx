@@ -8,8 +8,7 @@ function Message({ content }) {
 
 function App() {
   const initialOptions = {
-    "client-id":
-      "AU-O_Ug3xy32E8u5RGSSo8fiUevUIJqQvV2iwRqjaIYBmMQJB7_H026EYnJUVtwl7MRqnErg-ZUj3vW0",
+    "client-id": process.env.PAYPAL_CLIENT_ID,
     "enable-funding": "paylater,venmo",
     "data-sdk-integration-source": "integrationbuilder_sc",
   };
